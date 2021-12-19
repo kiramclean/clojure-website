@@ -1,0 +1,14 @@
+{:site/pages []
+ :blog/source-dir "/Users/kira/Sync/Wiki/Writing/Done"
+ :blog/posts [{:title "What I Use Now Instead Of Google"
+               :date "2021-01-05"
+               :file "What I Use Now Instead Of Google.md"
+               :tags #{"ungoogle" "software" "nextcloud"}}
+              {:title "How To Set Up Your Own Nextcloud Server"
+               :date "2020-12-19"
+               :file "How To Set Up Your Own Nextcloud Server.md"
+               :tags #{"ungoogle" "software" "nextcloud"}}
+              {:title "America Is A Scam"
+               :date "2021-01-30"
+               :file "America Is A Scam.md"
+               :tags #{"america" "society" "soapbox"}}]}

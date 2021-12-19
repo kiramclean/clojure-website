@@ -1,0 +1,7 @@
+{:deps {site/kiramclean {:local/root "."}}
+ :tasks
+ {render {:doc "Render website"
+          :task (load-file "src/website/tasks/render.clj")}
+  watch  {:depends [render]
+          :doc "Watch source files and templates and call render on file changes"
+          :task (load-file "src/website/tasks/watch.clj")}}}
